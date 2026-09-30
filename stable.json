@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "app_id": "school-workflow-ai",
+  "channel": "stable",
+  "version": "1.0.0",
+  "released_at": "2026-09-30",
+  "notes": [
+    "처음 배포하는 버전입니다.",
+    "쿨메신저 메시지를 AI가 읽고 할 일·일정을 골라 등록 확인 창에 보여 줍니다.",
+    "경남 아이좋아 메신저 쪽지도 가져옵니다. 연결 설정 → 메신저에서 쿨메신저만/아이좋아만/둘 다(1·2순위)를 고릅니다.",
+    "마감 1시간·30분 전 알림, 알림을 누르면 앱이 열립니다.",
+    "시작 안내 창에서 처음 설정할 것을 순서대로 안내합니다.",
+    "할 일 검색, 완료 되돌리기, 최근 완료만 보기, Notion 연결(선택)을 쓸 수 있습니다.",
+    "새 버전이 나오면 앱 안에서 버튼 한 번으로 업데이트합니다."
+  ],
+  "schema_version": 3,
+  "runtime": "py3.14.6-amd64-c8ad70fb",
+  "app": {
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.0.0/SchoolWorkflowAI-app-1.0.0.zip",
+    "sha256": "c861f33a53cb9ce394f932a6ba5df1058d909a747a8994dcee003c8e7360a018",
+    "size": 1098742
+  },
+  "full": {
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.0.0/SchoolWorkflowAI-1.0.0.zip",
+    "sha256": "1ffa95ca2040a42050382265c9415eb99898a2fdf18ec81558638afcd9afe814",
+    "size": 21145344
+  },
+  "signature": "eb0d5792a91d578160bb782ded60a549160971c7e5e8a69bfc7eaddb61c2e14145c4e893f8e0f5c58aedf08614ea7658c0a97a3854c6d94dda5270628c529b03"
+}
