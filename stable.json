@@ -2,23 +2,24 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "stable",
-  "version": "1.2.0",
-  "released_at": "2026-10-01",
+  "version": "1.3.0",
+  "released_at": "2026-10-02",
   "notes": [
-    "보낸 취합 쪽지를 ‘등록 안 함’이나 ‘나중에’로 두었어도, 그 쪽지에 신청·제출 답장이 오면 등록 확인 창에 ‘답장 n건 옴’으로 다시 띄웁니다. 등록하면 그때까지 온 답장을 제출로 한꺼번에 넣고, 다시 ‘등록 안 함’을 누르면 답장은 일반 쪽지처럼 따로 판단합니다.",
-    "인용 없이 온 짧은 \"신청합니다\" 답장이 관계없는 취합에 저절로 들어가지 않게, 확실하지 않으면 등록 확인 창에서 고르도록 묻습니다."
+    "배포 파일의 핵심 처리 모듈 세 개를 Python 바이트코드로 제공해 원본 코드를 바로 읽어 복제하기 어렵게 했습니다. 기존 기능과 데이터 저장 방식은 유지합니다.",
+    "설치와 업데이트에서 새 코드 파일이 빠지지 않도록 수정하고, 업데이트·이전 버전 복구 과정의 데이터와 설정 보존을 점검했습니다.",
+    "배포 파일의 누락·변조·개인정보와 키 파일 포함 여부를 검사하고, 게시한 파일을 다시 확인한 뒤 정식 업데이트 정보를 갱신하도록 배포 검사를 강화했습니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-c8ad70fb",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.2.0/SchoolWorkflowAI-app-1.2.0.zip",
-    "sha256": "264f189ea7ba29085f42086a03c74a35a96112f5d56f1ea968f5ac83807a124f",
-    "size": 1153599
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.3.0/SchoolWorkflowAI-app-1.3.0.zip",
+    "sha256": "5205b2ef2b2be70a328c8e1993a0bd6b4fade7dc09f987d00d8a8763f115462a",
+    "size": 1145962
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.2.0/SchoolWorkflowAI-1.2.0.zip",
-    "sha256": "41e2bb8cec41dc104b3b8a7504f5039dd914e1999951f3dc3cbd9a6301239eb4",
-    "size": 21201581
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.3.0/SchoolWorkflowAI-1.3.0.zip",
+    "sha256": "dd4f23297c6ef11aacfc360acbfd99efcc4b742334abaff2c7821d72fdc1f651",
+    "size": 21204058
   },
-  "signature": "af8dd1dbb8ab9447c47776f32282eaaf1768c60353b09dcb0b6f7a8b3b57a66855325b6c4f0a0b0c7ad5abefcca154d88115715ee1ade526ac1e23bba3fdea09"
+  "signature": "f9a8ea6219c5c2b14910247df859beec60176def93ba88aef79986b81cf95e7ac1fc64579b5d5947ca9d9b319c6b0da23b6b7c8c90df3230fee59e053fef080f"
 }
