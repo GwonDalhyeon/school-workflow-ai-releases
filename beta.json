@@ -2,31 +2,25 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "beta",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "released_at": "2026-10-07",
   "notes": [
-    "키 없이 쓸 수 있는 ‘앱에서 제공하는 AI’를 추가했습니다. 연결 설정 → AI에서 ‘내 API 키’와 ‘앱에서 제공하는 AI’ 중에서 고릅니다. 제공 AI는 학교 메일로 계정 인증을 하고 전송 안내에 동의하면 받은 쪽지 분석에 쓸 수 있습니다. 운영자가 정한 분석량이 기간마다 주어지고 하루 사용 횟수에 제한이 있습니다.",
-    "처음에는 이 PC에 개인 API 키가 있으면 ‘내 API 키’를, 없으면 ‘앱에서 제공하는 AI’를 고릅니다. 직접 고른 방식은 키를 추가하거나 지워도 그대로 유지됩니다.",
-    "인용을 뺀 제목과 본문이 합쳐서 2,500자를 넘는 쪽지는 AI로 분석하지 않습니다. 원문을 직접 확인해 주세요.",
-    "제공 AI 분석이 끝나지 못한 쪽지는 ‘분석 실패’로 표시되고 다른 쪽지 분석은 계속됩니다. ‘다시 분석’을 누르면 새로 요청하며 분석량을 다시 씁니다.",
-    "이 버전으로 업데이트한 날(처음 쓰는 분은 처음 사용한 날)부터 7일 동안은 로그인 없이 쓸 수 있습니다. 그 뒤에는 이메일 인증을 하면 새 업무 등록·AI 분석·쪽지 수집·Notion 동기화를 계속 쓸 수 있습니다. 인증하지 않아도 기존 할 일의 확인·수정·완료와 하위 할 일 정리는 그대로 됩니다.",
-    "이메일 인증은 비밀번호 없이 메일로 받은 링크를 누르면 앱으로 돌아와 끝납니다. 사이드바 ‘계정’에서 처리 안내를 읽고 동의한 뒤 이메일을 입력하세요. 지금은 운영자가 허용한 학교 메일 주소로 인증할 수 있습니다.",
-    "한 번 인증하면 로그인이 유지되어 PC를 다시 켜도 다시 인증할 필요가 없습니다. 인터넷이 잠시 끊겨도 마지막 확인 뒤 하루 동안은 모든 기능을 그대로 쓸 수 있습니다.",
-    "사이드바에서 이름·버전을 누르면 정보 창이 열리고, 문의 이메일을 누르면 문의 창이 열립니다.",
-    "문의 창에서 문의 종류와 앱 버전을 확인하고, 버전·문의 양식·이메일 주소를 직접 복사하거나 기본 메일 앱을 열 수 있습니다. 메일은 내용을 확인한 사용자가 직접 전송합니다.",
-    "정보 창과 시작 안내에서 사용 안내와 변경 내용을 볼 수 있습니다."
+    "연결 설정 → AI에서 ‘앱에서 제공하는 AI’를 고르면 전송 안내와 현재 상태를 바로 불러옵니다. 전에는 ‘상태 확인’을 누르기 전까지 안내 칸이 비어 있었습니다.",
+    "전송 안내를 불러오고 로그인이 확인되기 전에는 동의 체크를 할 수 없게 했습니다. 이미 동의한 계정은 ‘현재 전송 안내에 동의했습니다.’로 표시합니다.",
+    "‘내 API 키’와 ‘앱에서 제공하는 AI’ 중 고른 방식은 아래 ‘저장’을 눌러야 적용됩니다. 저장하지 않고 닫으려 하면 한 번 더 묻습니다. 아직 제공 AI를 쓸 수 없는 상태에서 저장하면 이유를 알려 주고, 쓸 수 있게 될 때까지 쪽지 분석이 기다린다는 점을 확인받습니다.",
+    "앱을 켜거나 계정 상태가 바뀌면 제공 AI 상태를 다시 확인해 왼쪽 아래 AI 상태 줄에 바로 보여 줍니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-c8ad70fb",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.4.0/SchoolWorkflowAI-app-1.4.0.zip",
-    "sha256": "8d36d1960735776fcde3f2c1392bbee2f07de84e46760c9acfb64253f93a3ccd",
-    "size": 1218016
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.4.1/SchoolWorkflowAI-app-1.4.1.zip",
+    "sha256": "8958a0d166bcd563de6c4f0b500eadd2a76a862255f2a87309fe6b1a66b095a7",
+    "size": 1220271
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.4.0/SchoolWorkflowAI-1.4.0.zip",
-    "sha256": "5ee6437b32f0b9a1dfe3e429a15051e93e42df5e3f394abdd1a4aa7a97396993",
-    "size": 21277850
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.4.1/SchoolWorkflowAI-1.4.1.zip",
+    "sha256": "f75da2fc25ea6e8776a4d55aa3d9dff5d8c0acdc135930493df4d14d055631d5",
+    "size": 21280180
   },
-  "signature": "988fa4c5fb05e7993aebc1bab2b5390e7598dfc784dfd4a47bb3150dc9aa8db58213756719760ce64edaf1ac33b3890ce9d281d28dd8e71fa63e93ca22780f00"
+  "signature": "1b6a85ac46e77131acea8ea792bde55e44c24e02a137115cdb6f063a9b5d96d4ab1f1bf6850e60d09194759362e9ec9a292ae1ded76b5fc4c8072ba03872b30e"
 }
