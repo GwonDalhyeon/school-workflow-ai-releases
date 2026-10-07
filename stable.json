@@ -2,24 +2,24 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "stable",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "released_at": "2026-10-07",
   "notes": [
-    "‘할 일 추가’에 적은 글을 AI로 분석해 등록하면, 받은 쪽지로 등록한 할 일처럼 상세 화면에 핵심 요약·원문 메시지·판단 근거가 남고 Notion에도 함께 보내집니다. 이 기록은 업무 후보 Inbox에는 나오지 않습니다.",
-    "한글을 입력하는 동안 조합 중인 글자가 입력 칸과 같은 크기로 보여 칸 밖으로 튀어나오지 않습니다. 조합 중에는 커서가 글자 앞에 보일 수 있지만 입력이 끝나면 제자리로 갑니다.",
-    "‘앱에서 제공하는 AI’의 전송 안내가 바뀌어(할 일 추가 글 포함, 이름 가명 처리) 연결 설정에서 다시 동의해야 제공 AI를 쓸 수 있습니다."
+    "새 버전이 있으면 앱을 열 때마다 ‘지금 업데이트할까요?’ 창을 띄웁니다. ‘예’를 누르면 바로 업데이트하고, ‘아니요’를 누르면 다음에 앱을 열 때 다시 알려 드립니다.",
+    "전에는 하루에 한 번만 확인해서 새 버전이 나와도 다음 날까지 모를 수 있었습니다. 이제 앱을 열 때마다 확인합니다.",
+    "업데이트 창의 ‘이 버전 건너뛰기’ 버튼을 없앴습니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-c8ad70fb",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.0/SchoolWorkflowAI-app-1.6.0.zip",
-    "sha256": "7746f8be1064c59db42914e189326bfcf85ff5751ec46048e235532089ddab5d",
-    "size": 1302405
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.1/SchoolWorkflowAI-app-1.6.1.zip",
+    "sha256": "e815760d3f8942ab2207933550a9aabc16f9ae064f06f906f03b5640f211455c",
+    "size": 1303182
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.0/SchoolWorkflowAI-1.6.0.zip",
-    "sha256": "d6317fc5817f976b501a9dc74a274013197ecb9ce9e20817b4e8f0091e515210",
-    "size": 21362994
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.1/SchoolWorkflowAI-1.6.1.zip",
+    "sha256": "ad603ef57954b482a75cecbe762c0700aa6698885fee94e1308386886e7964ad",
+    "size": 21363833
   },
-  "signature": "3137f2bb9549750c7dded1dc7ceff3ea98af5d1f4fe6f8ae58371c2149da768ed89ae7dd5cf439c2ad946ea814774e31f6735668b33d1443251617778df3b80c"
+  "signature": "9ade122089265be06d94318cd6bc5adc25d1c419f623e7fe4e13b896db3b470da2cdea76ff46aafaa9e53589fcf6a688e666a8b87d5f722217c92c3b2480c009"
 }
