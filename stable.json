@@ -2,24 +2,24 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "stable",
-  "version": "1.3.0",
-  "released_at": "2026-10-02",
+  "version": "1.6.0",
+  "released_at": "2026-10-07",
   "notes": [
-    "배포 파일의 핵심 처리 모듈 세 개를 Python 바이트코드로 제공해 원본 코드를 바로 읽어 복제하기 어렵게 했습니다. 기존 기능과 데이터 저장 방식은 유지합니다.",
-    "설치와 업데이트에서 새 코드 파일이 빠지지 않도록 수정하고, 업데이트·이전 버전 복구 과정의 데이터와 설정 보존을 점검했습니다.",
-    "배포 파일의 누락·변조·개인정보와 키 파일 포함 여부를 검사하고, 게시한 파일을 다시 확인한 뒤 정식 업데이트 정보를 갱신하도록 배포 검사를 강화했습니다."
+    "‘할 일 추가’에 적은 글을 AI로 분석해 등록하면, 받은 쪽지로 등록한 할 일처럼 상세 화면에 핵심 요약·원문 메시지·판단 근거가 남고 Notion에도 함께 보내집니다. 이 기록은 업무 후보 Inbox에는 나오지 않습니다.",
+    "한글을 입력하는 동안 조합 중인 글자가 입력 칸과 같은 크기로 보여 칸 밖으로 튀어나오지 않습니다. 조합 중에는 커서가 글자 앞에 보일 수 있지만 입력이 끝나면 제자리로 갑니다.",
+    "‘앱에서 제공하는 AI’의 전송 안내가 바뀌어(할 일 추가 글 포함, 이름 가명 처리) 연결 설정에서 다시 동의해야 제공 AI를 쓸 수 있습니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-c8ad70fb",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.3.0/SchoolWorkflowAI-app-1.3.0.zip",
-    "sha256": "5205b2ef2b2be70a328c8e1993a0bd6b4fade7dc09f987d00d8a8763f115462a",
-    "size": 1145962
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.0/SchoolWorkflowAI-app-1.6.0.zip",
+    "sha256": "7746f8be1064c59db42914e189326bfcf85ff5751ec46048e235532089ddab5d",
+    "size": 1302405
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.3.0/SchoolWorkflowAI-1.3.0.zip",
-    "sha256": "dd4f23297c6ef11aacfc360acbfd99efcc4b742334abaff2c7821d72fdc1f651",
-    "size": 21204058
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.0/SchoolWorkflowAI-1.6.0.zip",
+    "sha256": "d6317fc5817f976b501a9dc74a274013197ecb9ce9e20817b4e8f0091e515210",
+    "size": 21362994
   },
-  "signature": "f9a8ea6219c5c2b14910247df859beec60176def93ba88aef79986b81cf95e7ac1fc64579b5d5947ca9d9b319c6b0da23b6b7c8c90df3230fee59e053fef080f"
+  "signature": "3137f2bb9549750c7dded1dc7ceff3ea98af5d1f4fe6f8ae58371c2149da768ed89ae7dd5cf439c2ad946ea814774e31f6735668b33d1443251617778df3b80c"
 }
