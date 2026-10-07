@@ -2,25 +2,24 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "beta",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "released_at": "2026-10-07",
   "notes": [
-    "‘앱에서 제공하는 AI’로도 ‘할 일 추가’에 적은 글을 AI로 분석할 수 있습니다. 받은 쪽지와 같이 2,500자까지이며 분석량을 씁니다.",
-    "할 일 검색 칸에 한글을 입력할 때 글자가 칸 밖으로 튀어나오지 않게 칸을 키웠습니다.",
-    "업무 매뉴얼은 다듬는 동안 메뉴와 첫 화면 아래 칸에서 잠시 뺐습니다. 만들어 둔 매뉴얼은 지워지지 않습니다.",
-    "사이드바와 계정 창 제목의 ‘계정 (선택)’을 ‘계정’으로 줄였습니다."
+    "‘할 일 추가’에 적은 글을 AI로 분석해 등록하면, 받은 쪽지로 등록한 할 일처럼 상세 화면에 핵심 요약·원문 메시지·판단 근거가 남고 Notion에도 함께 보내집니다. 이 기록은 업무 후보 Inbox에는 나오지 않습니다.",
+    "한글을 입력하는 동안 조합 중인 글자가 입력 칸과 같은 크기로 보여 칸 밖으로 튀어나오지 않습니다. 조합 중에는 커서가 글자 앞에 보일 수 있지만 입력이 끝나면 제자리로 갑니다.",
+    "‘앱에서 제공하는 AI’의 전송 안내가 바뀌어(할 일 추가 글 포함, 이름 가명 처리) 연결 설정에서 다시 동의해야 제공 AI를 쓸 수 있습니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-c8ad70fb",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.5.2/SchoolWorkflowAI-app-1.5.2.zip",
-    "sha256": "ea5ae7e73776b6a9058e6ef3060a55e556323931339fd23604a875efc09d3452",
-    "size": 1299954
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.0/SchoolWorkflowAI-app-1.6.0.zip",
+    "sha256": "7746f8be1064c59db42914e189326bfcf85ff5751ec46048e235532089ddab5d",
+    "size": 1302405
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.5.2/SchoolWorkflowAI-1.5.2.zip",
-    "sha256": "65559bab92204fdf244c52a360d8bc55877f260dbd42787f471cc8137be9f5ce",
-    "size": 21360543
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.0/SchoolWorkflowAI-1.6.0.zip",
+    "sha256": "d6317fc5817f976b501a9dc74a274013197ecb9ce9e20817b4e8f0091e515210",
+    "size": 21362994
   },
-  "signature": "83fe67f8c9340d48ed8fac3b584f2934ef64cfd985e39c73ae8ccd34e175bd452f204077a9300dd9093f45b6128d3933a9750101de294e657a94cbbfe891190f"
+  "signature": "939f4de5cff069fcca77a9180e23090b8b06dec102929f50758576c77e63e0d1051b89c1a4bb1614420a229396e01cdadbd6d87a9bfb7a9c253eb37371764000"
 }
