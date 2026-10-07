@@ -2,25 +2,29 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "beta",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "released_at": "2026-10-07",
   "notes": [
-    "연결 설정 → AI에서 ‘앱에서 제공하는 AI’를 고르면 전송 안내와 현재 상태를 바로 불러옵니다. 전에는 ‘상태 확인’을 누르기 전까지 안내 칸이 비어 있었습니다.",
-    "전송 안내를 불러오고 로그인이 확인되기 전에는 동의 체크를 할 수 없게 했습니다. 이미 동의한 계정은 ‘현재 전송 안내에 동의했습니다.’로 표시합니다.",
-    "‘내 API 키’와 ‘앱에서 제공하는 AI’ 중 고른 방식은 아래 ‘저장’을 눌러야 적용됩니다. 저장하지 않고 닫으려 하면 한 번 더 묻습니다. 아직 제공 AI를 쓸 수 없는 상태에서 저장하면 이유를 알려 주고, 쓸 수 있게 될 때까지 쪽지 분석이 기다린다는 점을 확인받습니다.",
-    "앱을 켜거나 계정 상태가 바뀌면 제공 AI 상태를 다시 확인해 왼쪽 아래 AI 상태 줄에 바로 보여 줍니다."
+    "AI로 글을 보내기 전에 사람 이름을 [나]·[교직원1]·[학생1] 같은 가명으로 바꿔 보내고, 받은 결과는 이 PC에서 원래 이름으로 되돌립니다. 업무분장·메신저 연락처·내 이름과 직접 추가한 이름을 기준으로 찾습니다. 가명 처리는 완전한 익명 처리가 아니어서 놓치는 이름이 있을 수 있습니다.",
+    "내 정보에 ‘AI 개인정보’ 탭을 추가했습니다. 이름 가리기를 켜고 끄고, 새로 찾은 이름 후보를 확인하고, 이름·별명을 더하거나 이름이 아닌 낱말을 지정할 수 있습니다. 받은 쪽지가 AI로 어떻게 가는지도 미리 볼 수 있습니다.",
+    "할 일 추가 창에 적은 내용을 받은 쪽지처럼 AI가 분석해 하위 할 일과 나눠 등록할 일을 제안합니다. 요청일은 등록한 날, 담당은 나로 정해지고, 내가 담당인 일은 ‘나’로 보입니다.",
+    "업무분장 창에서 양식이 아닌 파일(엑셀·hwpx·pdf)도 AI로 읽습니다. 보내는 내용을 확인하고 동의해야 보내며, 교직원 이름은 가명으로 보냅니다.",
+    "학사일정 창에서 파일(엑셀·hwpx·pdf)을 AI로 읽어 행사 목록으로 정리합니다. 저장하기 전에 표에서 확인하고 고칠 수 있습니다.",
+    "파일 AI 읽기는 ‘내 API 키’를 쓸 때만 됩니다. 읽는 동안 진행 막대와 경과 시간을 보여 주고, 그 사이 창을 닫으려 하면 한 번 묻습니다.",
+    "관리 창들의 모양과 저장·취소 버튼 위치를 맞췄습니다. 학교는 경상남도 공식 학교 목록에서 검색해 고릅니다.",
+    "분석·확인 중인 버튼과 안내 글의 점(…)이 움직여 작업 중임을 알려 줍니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-c8ad70fb",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.4.1/SchoolWorkflowAI-app-1.4.1.zip",
-    "sha256": "8958a0d166bcd563de6c4f0b500eadd2a76a862255f2a87309fe6b1a66b095a7",
-    "size": 1220271
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.5.0/SchoolWorkflowAI-app-1.5.0.zip",
+    "sha256": "e8fdc213f04122a6468c6c3769d4a36fcf998b1f85a4164d50d97d9631f4dcd1",
+    "size": 1299298
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.4.1/SchoolWorkflowAI-1.4.1.zip",
-    "sha256": "f75da2fc25ea6e8776a4d55aa3d9dff5d8c0acdc135930493df4d14d055631d5",
-    "size": 21280180
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.5.0/SchoolWorkflowAI-1.5.0.zip",
+    "sha256": "e1f6f1d789232c5e2379c9e65d11398363112a87ed400953c8a0fb5bfa44b86c",
+    "size": 21359857
   },
-  "signature": "1b6a85ac46e77131acea8ea792bde55e44c24e02a137115cdb6f063a9b5d96d4ab1f1bf6850e60d09194759362e9ec9a292ae1ded76b5fc4c8072ba03872b30e"
+  "signature": "a934346872a75b27422c6368a554f3d03915d2d2a6455b067ddec03f7fd815406dc5c6ce0648597ff1570c50c25431ad04c504bdf63cf2c6550af14e7b7e330d"
 }
