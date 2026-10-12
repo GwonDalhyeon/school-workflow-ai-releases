@@ -2,24 +2,26 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "stable",
-  "version": "1.6.1",
-  "released_at": "2026-10-07",
+  "version": "1.7.2",
+  "released_at": "2026-10-12",
   "notes": [
-    "새 버전이 있으면 앱을 열 때마다 ‘지금 업데이트할까요?’ 창을 띄웁니다. ‘예’를 누르면 바로 업데이트하고, ‘아니요’를 누르면 다음에 앱을 열 때 다시 알려 드립니다.",
-    "전에는 하루에 한 번만 확인해서 새 버전이 나와도 다음 날까지 모를 수 있었습니다. 이제 앱을 열 때마다 확인합니다.",
-    "업데이트 창의 ‘이 버전 건너뛰기’ 버튼을 없앴습니다."
+    "결과를 확인할 수 없는 분석 요청의 예약 크레딧을 기한 뒤 자동으로 돌려줍니다. 오래 남은 요청 때문에 새 분석이 계속 막히는 문제를 줄였습니다.",
+    "공문·글의 AI 분석에서 70초가 지나면 대기를 끝내고 다시 조작할 수 있습니다. 뒤늦게 온 응답이 현재 입력이나 결과를 덮어쓰지 않습니다.",
+    "받은 분석 결과는 서버에 암호화해 10분 동안 다시 가져올 수 있습니다. 입력 원문은 저장하지 않으며, 바뀐 AI 처리 안내에 다시 동의해야 합니다.",
+    "분석 결과를 받은 뒤 할 일 저장에 실패하면 같은 창에서 AI를 다시 호출하지 않고 저장만 재시도할 수 있습니다.",
+    "AI 설정·사용 한도·연결·처리 오류를 구분해 다음 할 일을 안내합니다. 확정 실패한 메시지를 자동 분석에서 반복 요청하지 않으며 직접 다시 분석할 수 있습니다."
   ],
   "schema_version": 5,
-  "runtime": "py3.14.6-amd64-c8ad70fb",
+  "runtime": "py3.14.6-amd64-badcab5b",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.1/SchoolWorkflowAI-app-1.6.1.zip",
-    "sha256": "e815760d3f8942ab2207933550a9aabc16f9ae064f06f906f03b5640f211455c",
-    "size": 1303182
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.7.2/SchoolWorkflowAI-app-1.7.2.zip",
+    "sha256": "21d0ce51e81d6226a989139f1966af76972a2d5903524eeb8cb5942ffef8060a",
+    "size": 930310
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.6.1/SchoolWorkflowAI-1.6.1.zip",
-    "sha256": "ad603ef57954b482a75cecbe762c0700aa6698885fee94e1308386886e7964ad",
-    "size": 21363833
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.7.2/SchoolWorkflowAI-1.7.2.zip",
+    "sha256": "2120cceaf5c4bd8f1abda9a7c7ba55a6447a6a0e85256faf1534d716268b8fdf",
+    "size": 21389616
   },
-  "signature": "9ade122089265be06d94318cd6bc5adc25d1c419f623e7fe4e13b896db3b470da2cdea76ff46aafaa9e53589fcf6a688e666a8b87d5f722217c92c3b2480c009"
+  "signature": "82eb8b3ce4e1f043d0b45b4817145723768b749a1147600ef56ce6d11af60dabd647243290f3087742884d062e31e3ad9651abb2fce9c030df8af50327211905"
 }
