@@ -2,26 +2,27 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "beta",
-  "version": "1.7.2",
-  "released_at": "2026-10-12",
+  "version": "1.8.0",
+  "released_at": "2026-10-13",
   "notes": [
-    "결과를 확인할 수 없는 분석 요청의 예약 크레딧을 기한 뒤 자동으로 돌려줍니다. 오래 남은 요청 때문에 새 분석이 계속 막히는 문제를 줄였습니다.",
-    "공문·글의 AI 분석에서 70초가 지나면 대기를 끝내고 다시 조작할 수 있습니다. 뒤늦게 온 응답이 현재 입력이나 결과를 덮어쓰지 않습니다.",
-    "받은 분석 결과는 서버에 암호화해 10분 동안 다시 가져올 수 있습니다. 입력 원문은 저장하지 않으며, 바뀐 AI 처리 안내에 다시 동의해야 합니다.",
-    "분석 결과를 받은 뒤 할 일 저장에 실패하면 같은 창에서 AI를 다시 호출하지 않고 저장만 재시도할 수 있습니다.",
-    "AI 설정·사용 한도·연결·처리 오류를 구분해 다음 할 일을 안내합니다. 확정 실패한 메시지를 자동 분석에서 반복 요청하지 않으며 직접 다시 분석할 수 있습니다."
+    "앱에서 제공하는 AI로도 업무분장·학사일정 파일(엑셀·hwpx·PDF)을 읽을 수 있습니다. 파일을 조각으로 나눠 조각마다 크레딧 1개를 쓰며, 파일 하나에 최대 10개까지만 씁니다. 읽기 전에 쓸 크레딧과 남은 양을 보여 주고, 넘거나 모자라면 보내지 않습니다. 바뀐 AI 처리 안내에 다시 동의해야 합니다.",
+    "업무분장·학사일정 PDF를 다른 프로그램 없이 앱 안에서 읽습니다. 일부 PC에서 PDF를 읽지 못하던 문제를 고쳤고, 표의 행과 칸을 살려 읽습니다.",
+    "업무분장을 AI로 읽을 때 교사뿐 아니라 교장·교감, 행정실, 교육공무직 등 이름이 적힌 교직원을 모두 넣습니다.",
+    "AI로 읽기 전 확인 칸을 파란 칸으로 눈에 띄게 바꾸고, ‘AI로 읽기’ 버튼을 동의 체크 바로 아래에 두었습니다. 학사일정도 같은 확인 칸을 씁니다.",
+    "업무분장에서 본인을 고르면 아래 담당 과목·업무가 바로 그 사람의 값으로 바뀝니다. 직접 고친 내용이 있으면 바꾸기 전에 묻습니다.",
+    "한글(.hwp) 파일을 넣으면 .hwpx나 PDF로 저장해 넣으라고 안내합니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-badcab5b",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.7.2/SchoolWorkflowAI-app-1.7.2.zip",
-    "sha256": "21d0ce51e81d6226a989139f1966af76972a2d5903524eeb8cb5942ffef8060a",
-    "size": 930310
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.8.0/SchoolWorkflowAI-app-1.8.0.zip",
+    "sha256": "e8e5328afc778212a31419a0cd85792578bae175463cc4e1bcf9ef37b52a3802",
+    "size": 936130
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.7.2/SchoolWorkflowAI-1.7.2.zip",
-    "sha256": "2120cceaf5c4bd8f1abda9a7c7ba55a6447a6a0e85256faf1534d716268b8fdf",
-    "size": 21389616
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.8.0/SchoolWorkflowAI-1.8.0.zip",
+    "sha256": "cac361f40183a878de40de85d206d95ed063a8996f52f45aa6e8068bd6b3515a",
+    "size": 21395631
   },
-  "signature": "d8c3d456636c58aff4a47153e932301726452932da7d5aac08578695c4ce21d5947997b4054d990bc7715c0dbb37c1b8c4cdd6b37eadce8ceea3195826314b05"
+  "signature": "14f40b4bad787a40e57faf03620e184dc850234e1770ed52af763db4b68e06d49933d57c9a7eac5797a25cf1cb272cad1ce4edef6ceab8c613877a13d5d43505"
 }
