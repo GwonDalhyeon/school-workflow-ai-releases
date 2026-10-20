@@ -2,30 +2,23 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "stable",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "released_at": "2026-10-20",
   "notes": [
-    "앱에서 제공하는 AI로도 내가 보낸 쪽지에서 받을 것(취합)을 찾아 등록 확인에 올립니다. 내 API 키를 쓸 때와 같은 기능이며, 요청하는 말이 있는 보낸 쪽지마다 크레딧 1개를 씁니다.",
-    "답장이 어느 취합에 대한 것인지 헷갈릴 때도 제공 AI가 골라 줍니다(답장마다 크레딧 1개).",
-    "바뀐 AI 처리 안내에 다시 동의해야 제공 AI를 쓸 수 있습니다.",
-    "2,500자를 넘는 받은 쪽지 하나 때문에 다른 메시지 분석이 멈추던 문제를 고쳤습니다. 그 쪽지는 Inbox에 ‘분석하지 않음’으로 보입니다. 보낸 쪽지도 2,500자를 넘으면 AI로 보내지 않습니다.",
-    "(1.8.0 베타에서 먼저 나온 기능) 앱에서 제공하는 AI로도 업무분장·학사일정 파일(엑셀·hwpx·PDF)을 읽을 수 있습니다. 파일을 조각으로 나눠 조각마다 크레딧 1개를 쓰며, 파일 하나에 최대 10개까지만 씁니다.",
-    "(1.8.0) 업무분장·학사일정 PDF를 다른 프로그램 없이 앱 안에서 읽고, 표의 행과 칸을 살려 읽습니다.",
-    "(1.8.0) 업무분장을 AI로 읽을 때 교장·교감, 행정실, 교육공무직 등 이름이 적힌 교직원을 모두 넣습니다.",
-    "(1.8.0) AI로 읽기 전 확인 칸을 눈에 띄게 바꾸고, 업무분장에서 본인을 고르면 담당 과목·업무가 바로 바뀝니다.",
-    "(1.8.0) 한글(.hwp) 파일을 넣으면 .hwpx나 PDF로 저장해 넣으라고 안내합니다."
+    "내가 보낸 취합 쪽지와 그 답장이 한꺼번에 들어오면 답장이 일반 할 일로 처리되어 제출로 남지 않던 문제를 고쳤습니다. 이제 보낸 쪽지를 먼저 판단해 답장을 그 취합의 제출로 넣습니다.",
+    "다른 쪽지를 인용해 여러 명에게 보낸 요청 쪽지도 취합 후보로 봅니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-badcab5b",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.9.0/SchoolWorkflowAI-app-1.9.0.zip",
-    "sha256": "7ce63c809b15b7744e159b7f6a568922e6ab63fe6f87ab894f687b5b80bb2d9c",
-    "size": 938349
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.9.1/SchoolWorkflowAI-app-1.9.1.zip",
+    "sha256": "2d8e861692a5c5c545ae70f591ca5466181a55550400c24e849b09b054a7cdae",
+    "size": 938608
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.9.0/SchoolWorkflowAI-1.9.0.zip",
-    "sha256": "d3a93b7b876f7c1773b81e4a459495f5fa71146b45d7ab9143b136fb571ce199",
-    "size": 21397934
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.9.1/SchoolWorkflowAI-1.9.1.zip",
+    "sha256": "a2e8634fad1028390b7e39c053d906a7c83e9f89090b68542ed0905b412b9e84",
+    "size": 21398193
   },
-  "signature": "82ad695a115bde329f376e8de9cc004a31a51b328fcee4350afae7514dcccfa9dab3b7c092c3a90a219b3b9052b1f54f20891757552fabef907292733b367504"
+  "signature": "a3141757073f7bbe5e69bb1d9758331a620346ff1127b71056bed48f8358183972e56feaa7a9a5d869917c6f50117797ce0790824767ba7d3b29ed4662199f0f"
 }
