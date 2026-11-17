@@ -2,23 +2,23 @@
   "format": 1,
   "app_id": "school-workflow-ai",
   "channel": "stable",
-  "version": "1.9.1",
-  "released_at": "2026-10-20",
+  "version": "1.10.4",
+  "released_at": "2026-11-17",
   "notes": [
-    "내가 보낸 취합 쪽지와 그 답장이 한꺼번에 들어오면 답장이 일반 할 일로 처리되어 제출로 남지 않던 문제를 고쳤습니다. 이제 보낸 쪽지를 먼저 판단해 답장을 그 취합의 제출로 넣습니다.",
-    "다른 쪽지를 인용해 여러 명에게 보낸 요청 쪽지도 취합 후보로 봅니다."
+    "1.10.0으로 올린 뒤 몇 달 전에 받은 쪽지가 업무 후보 Inbox의 `확인할 것`에 `분석 전`으로 갑자기 올라오던 문제를 고쳤습니다. 이제 앱이 쪽지를 가져온 지 7일이 지나도록 분석하지 않은 쪽지는 자동 분석하지 않고 `분석 전`에도 보이지 않습니다. 쪽지는 지우지 않습니다.",
+    "PC를 오래 꺼 두었다가 나중에 가져온 쪽지는 가져온 날부터 7일 안에 그대로 분석합니다."
   ],
   "schema_version": 5,
   "runtime": "py3.14.6-amd64-badcab5b",
   "app": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.9.1/SchoolWorkflowAI-app-1.9.1.zip",
-    "sha256": "2d8e861692a5c5c545ae70f591ca5466181a55550400c24e849b09b054a7cdae",
-    "size": 938608
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.10.4/SchoolWorkflowAI-app-1.10.4.zip",
+    "sha256": "7be7ee183d8272f833269427998b7cab84463d31e0b5f3797f0d26b7ab61eb2d",
+    "size": 1163387
   },
   "full": {
-    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.9.1/SchoolWorkflowAI-1.9.1.zip",
-    "sha256": "a2e8634fad1028390b7e39c053d906a7c83e9f89090b68542ed0905b412b9e84",
-    "size": 21398193
+    "url": "https://github.com/GwonDalhyeon/school-workflow-ai-releases/releases/download/v1.10.4/SchoolWorkflowAI-1.10.4.zip",
+    "sha256": "ae15ad776501e2159739edd61a092510ed68d7105e3fdde3f35e4863244ed3af",
+    "size": 21625002
   },
-  "signature": "a3141757073f7bbe5e69bb1d9758331a620346ff1127b71056bed48f8358183972e56feaa7a9a5d869917c6f50117797ce0790824767ba7d3b29ed4662199f0f"
+  "signature": "dd65b2d60b52d6d743d682ce7c14ff77eaf4004e70bf886aa1cfdc5a0e528786952e3376bbc2044265e9766d3aaaf7847aca7955774ad452b74762d79b5bef03"
 }
